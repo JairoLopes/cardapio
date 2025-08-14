@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #585123; /* Verde oliva escuro para textos */
+  --color-secondary: #0a7364; /* Verde oliva claro para títulos de pratos */
+  --color-third: #a27b5c; /* Marrom-acinzentado para preços e botões de categoria */
+  --color-main-bg: #f9f7f3; /* Creme muito claro para o fundo principal */
+  --color-main-bg2: #ffffff; /* Branco puro para o navbar */
+  --color-navbg: #d6d6c2; /* Branco puro para o navbar */
+
+  --breakpoint-ssm: 450px;
+}
