@@ -5,7 +5,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row justify-between items-center mb-6">
         <div class="mb-4 md:mb-0">
-          <h2 class="text-2xl font-bold text-primary">Bistrô do Campo</h2>
+          <img src="/img/bistro-ammit.png" alt="Logo" class="w-46" />
         </div>
 
         <div class="flex flex-col items-center md:items-start text-sm">

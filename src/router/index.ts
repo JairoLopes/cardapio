@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, type RouteLocationNormalized } from 'vue-router'
+import { createRouter, createMemoryHistory, type RouteLocationNormalized } from 'vue-router'
 import { menuItems } from '@/data/menu'
 import CategoryView from '@/views/CategoryView.vue'
 import DailySpecialView from '@/views/DailySpecialView.vue' // Importa a nova view
@@ -43,7 +43,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createMemoryHistory(),
   routes,
   // Adiciona a função scrollBehavior para controlar a rolagem da página
   scrollBehavior(to, from, savedPosition) {
